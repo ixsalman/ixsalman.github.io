@@ -1,0 +1,46 @@
+/* Zack's page */
+
+.zack.bg-img {
+  background-image: url(/birthdays/images/people/zack-beach.png);
+}
+
+.zack-carousel-container {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  width: 50%;
+}
+
+.zack .carousel-control.right, .zack .carousel-control.left {
+  background-image: none;
+}
+.zack .carousel-inner {
+  width: 60%;
+  margin-left: 20%;
+}
+.zack .comment {
+  font-size: 20px;
+}
+.zack .author {
+  text-align: right;
+}
+.zack .item {
+  height: 200px;
+  overflow-y: scroll;
+  padding: 8px;
+  -webkit-transition: 0.4s ease-in-out left;
+  -moz-transition: 0.4s ease-in-out left;
+  -o-transition: 0.4s ease-in-out left;
+  transition: 0.4s ease-in-out left;
+}
+.zack-text {
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.zack-header {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.zack-date {
+  font-size: 30px;
+}
