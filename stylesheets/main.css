@@ -102,5 +102,25 @@ header:hover {
 }
 
 
+.container {
+  width: 1000px;
+}
 
-.student-photo
+.student_photo {
+  float: left;
+  height: 200px;
+  width: 200px;
+  vertical-align: middle;
+}
+
+.student_comment {
+  float:right;
+  width: 750px;
+}
+
+.student_comment > .container {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: left;
+}
