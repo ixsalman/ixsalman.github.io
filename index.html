@@ -38,18 +38,36 @@
 
   $(document).ready(loadHeader);
 
- 
-  $( ".image_expand" ).children()
-    .mouseenter(function() {
-      $(this).width($(this).width()*2);
-      $(this).height($(this).height()*2);
+  var speed = 100;
+
+  //expand
+  $( ".image_expand" )
+    //expand
+    .mouseover(function() {
+      if( $(this).is(':animated') ) {return;}
+      $(this).animate({
+        left: "-=30",
+        top: "-=30",
+      }, speed)
+      $(this).children().animate({
+        width: "160",
+        height: "160"
+      }, speed)
     })
 
-    .mouseleave(function() {
-      $(this).width($(this).width()/2);
-      $(this).height($(this).height()/2);
-    }
-  );
+    //contact
+    .mouseout(function() {
+      if( $(this).is(':animated') ) {return;}
+      $(this).animate( {
+        left: "+=30",
+        top: "+=30"
+      }, speed)
+      $(this).children().animate({
+        width: "100",
+        height: "100"
+      }, speed)
+    });
+
 
 </script> 
 </body>

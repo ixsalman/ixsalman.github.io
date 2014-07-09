@@ -251,6 +251,13 @@ h1 {
 .image {
   width: 100px;
   height: 100px;
+  z-index: 5;
+  clear: right;
+  float: left;
 }
 
-
+.smaller {
+  width: 70px;
+  height: 70px;
+  z-index: 3;
+}
