@@ -243,21 +243,24 @@ h1 {
 
 .image_expand {
   position: absolute;
-  left: 100px;
-  top: 150px;
+  left: 1000px;
+  top: 500px;
 }
 
 
-.image {
+#bkg > a > img {
   width: 100px;
   height: 100px;
   z-index: 5;
-  clear: right;
-  float: left;
 }
 
 .smaller {
   width: 70px;
   height: 70px;
   z-index: 3;
+}
+
+
+#header {
+  height: 20px;
 }

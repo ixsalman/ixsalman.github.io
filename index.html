@@ -26,8 +26,11 @@
 
 
   <div id="bkg">
+    <a href="session1.html" class='image_expand' style="position:absolute; top:500px; left:800px;">
+      <img src="/images/test.jpg" alt="test"  >
+    </a>
     <a href="session1.html" class='image_expand'>
-      <img src="/images/test.jpg" alt="test" class="image allen">
+      <img src="/images/chewbacca.jpg" alt="test">
     </a>
   </div>
 
@@ -36,37 +39,57 @@
 <!-- Expand Effect -->
 <script type="text/javascript"> 
 
-  $(document).ready(loadHeader);
+
+   $(document).ready(loadHeader);
+
 
   var speed = 100;
+  var expand = false;
+  var contract = false;
 
   //expand
   $( ".image_expand" )
     //expand
-    .mouseover(function() {
-      if( $(this).is(':animated') ) {return;}
-      $(this).animate({
-        left: "-=30",
-        top: "-=30",
-      }, speed)
-      $(this).children().animate({
-        width: "160",
-        height: "160"
-      }, speed)
-    })
+    .mouseover(
+      function() {
+        if (expand) {return;}
 
-    //contact
-    .mouseout(function() {
-      if( $(this).is(':animated') ) {return;}
-      $(this).animate( {
-        left: "+=30",
-        top: "+=30"
-      }, speed)
-      $(this).children().animate({
-        width: "100",
-        height: "100"
-      }, speed)
-    });
+        expand = true;
+        contract = false;
+
+        $(this).animate({
+          left: "-=30",
+          top: "-=30",
+        }, speed);
+
+        $(this).children().animate({
+          width: "160",
+          height: "160"
+        }, speed);
+      }
+    )
+
+    //contract
+    .mouseout(
+      function() {
+        if (contract) {return;}
+
+        expand = false;
+        contract = true;
+
+        $(this).animate({
+          left: "+=30",
+          top: "+=30"
+        }, speed);
+
+        $(this).children().animate({
+          width: "100",
+          height: "100"
+        }, speed);
+      }
+    );
+    
+
 
 
 </script> 
