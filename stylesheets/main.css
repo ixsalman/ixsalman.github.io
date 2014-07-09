@@ -229,7 +229,6 @@ ul.pull-right > li > .btn {
 }
 
 
-
 body {
   margin-top: 65px;
 }
@@ -260,7 +259,7 @@ body {
 .bg_salman { background: url('/images/salman_mosaic.jpg') no-repeat 50% 0; }
 
 .bg_salman{
-  height: 700px;
+  height: 900px;
   width: 100%;
   padding: 0;
   background-attachment: fixed;
