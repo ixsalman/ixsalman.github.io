@@ -234,10 +234,14 @@ body {
   margin-top: 65px;
 }
 
-h1 {
+.container h1 {
   padding: 30px;
   font-family: "Bitter", sans-serif;
   font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  opacity: 0.7;
+  margin-bottom: 3em;
 }
 
 
@@ -251,6 +255,16 @@ h1 {
 .image {
   width: 100px;
   height: 100px;
+}
+
+.bg_salman { background: url('/images/salman_mosaic.jpg') no-repeat 50% 0; }
+
+.bg_salman{
+  height: 700px;
+  width: 100%;
+  padding: 0;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 
