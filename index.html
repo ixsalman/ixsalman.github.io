@@ -41,13 +41,17 @@
    
     $( ".image_expand" ).children()
       .mouseenter(function() {
-        $(this).width($(this).width()*2);
-        $(this).height($(this).height()*2);
+        $(this).width($(this).width()*2)
+        $(this).height($(this).height()*2)
+        $(this).left($(this).left - $(this).left()/2)
+        $(this).top($(this).top - $(this).top()/2)
       })
 
       .mouseleave(function() {
         $(this).width($(this).width()/2);
         $(this).height($(this).height()/2);
+        $(this).left($(this).left + $(this).left()/2)
+        $(this).top($(this).top + $(this).top()/2)
       }
     );
 
