@@ -3,16 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <title>Lengendary Ansari</title>
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="stylesheets/main.css">
+  <!-- Favicon -->
   <link rel="shortcut icon" href="images/favicon.png">
+  <!-- Javascript -->
+  <script type="text/javascript" src="javascript/app.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.0.js"></script>
 
-
+  <ul>
+    <li><a href="/session1.html"> Session 1 </a></li>
+    <li><a href="/session2.html"> Session 2 </a></li>
+  </ul>
 
 
   <div id="header"></div>
 
 </head>
+
 <body>
   <div class="container">
     <h1>Presenting... The amazing Salmon Ansari</h1>
@@ -23,41 +32,28 @@
     <a href="session1.html" class='image_expand'>
       <img src="/images/test.jpg" alt="test" class="image allen">
     </a>
-    
-
-
-
-
   </div>
 
 
 
-  <script type="text/javascript" src="javascript/app.js"></script>
-  <script src="//code.jquery.com/jquery-1.11.0.js"></script>
-  <script type="text/javascript"> 
+<!-- Expand Effect -->
+<script type="text/javascript"> 
 
-    $(document).ready(loadHeader);
+  $(document).ready(loadHeader);
 
-   
-    $( ".image_expand" ).children()
-      .mouseenter(function() {
-        $(this).width($(this).width()*2)
-        $(this).height($(this).height()*2)
-        $(this).left($(this).left - $(this).left()/2)
-        $(this).top($(this).top - $(this).top()/2)
-      })
+ 
+  $( ".image_expand" ).children()
+    .mouseenter(function() {
+      $(this).width($(this).width()*2);
+      $(this).height($(this).height()*2);
+    })
 
-      .mouseleave(function() {
-        $(this).width($(this).width()/2);
-        $(this).height($(this).height()/2);
-        $(this).left($(this).left + $(this).left()/2)
-        $(this).top($(this).top + $(this).top()/2)
-      }
-    );
+    .mouseleave(function() {
+      $(this).width($(this).width()/2);
+      $(this).height($(this).height()/2);
+    }
+  );
 
-
-
-
-  </script> 
+</script> 
 </body>
 </html>
