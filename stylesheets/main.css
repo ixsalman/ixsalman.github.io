@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter);
 @import url(http://fonts.googleapis.com/css?family=Lato:700,400italic,700italic);
 
 /* Main styles
@@ -108,13 +109,15 @@ header:hover {
 
 .student_photo {
   float: left;
+  clear: right;
   height: 200px;
   width: 200px;
   vertical-align: middle;
+  padding: 10px;
 }
 
 .student_comment {
-  float:right;
+  padding: 10px;
   width: 750px;
 }
 
@@ -124,3 +127,130 @@ header:hover {
   vertical-align: middle;
   text-align: left;
 }
+
+
+
+
+
+.navbar .brand {
+  color: #222a31;
+  padding: 0;
+  margin-top: 14px;
+  margin-left: 0;
+  height: 35px;
+}
+.nav {
+  font: 700 16px/16px "Lato", sans-serif;
+  text-shadow: none;  
+}
+
+.navbar-inner {
+  background: #fff;
+  background-image: none;
+}
+
+
+.navbar .nav > li > a {
+  color: #222a31;
+  padding: 20px;
+  display: block;
+}
+.navbar .nav > li > a:focus, 
+.navbar .nav > li > a:hover {
+  border-radius: 0px;
+  color: white;
+  background-color: #52bad5;
+  text-shadow: none;
+}
+
+.navbar-fixed-top .navbar-inner, 
+.navbar-static-top .navbar-inner {
+  border: none;
+  -webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+}
+
+.navbar .nav > li > .dropdown-menu:after,
+.navbar .nav > li > .dropdown-menu:before {
+  display: none;
+}
+.navbar .pull-right > li > .dropdown-menu, 
+.navbar .nav > li > .dropdown-menu.pull-right {
+  right: 20px;
+  width: 100%;
+}
+
+.pull-right {
+  float:right;
+}
+.btn:hover {
+  background-color: lightblue;
+}
+
+
+.navbar .nav > li > .logo:hover, 
+.navbar .nav > li > .logo {
+  padding: 0px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0px auto;
+  padding: 0px;
+  height: 100%;
+  background-color: transparent;
+}
+
+ul.pull-right > li > .btn {
+  margin-top: 5px;
+  border: none;
+}
+
+.nav > li > .btn {
+  vertical-align: middle;
+}
+
+.logo {
+  margin-top: 15px;
+}
+
+.nav > li {
+  float:left;
+}
+
+
+.navbar .nav {
+  margin-bottom: 0px;
+  height: 65px;
+}
+
+
+
+body {
+  margin-top: 65px;
+}
+
+h1 {
+  padding: 30px;
+  font-family: "Bitter", sans-serif;
+  font-weight: bold;
+}
+
+
+.image_expand {
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+
+
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+
