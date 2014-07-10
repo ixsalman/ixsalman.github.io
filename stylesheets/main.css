@@ -221,7 +221,7 @@ h1[id="main_header"] {
   width: 160px;
   height: 160px;
   box-shadow: 
-    0 0 0 8px #F26328, 
+    0 0 0 8px #fff, 
     0 1px 1px rgba(255,255,255,0.5);
   background-repeat: no-repeat;
   border-radius: 50%;
