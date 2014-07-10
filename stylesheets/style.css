@@ -244,11 +244,27 @@
 }
 
 .event input[type="radio"] {
-	width: 40px;
-	height: 400px;
 	opacity: 0;
 	z-index: 10;
 	cursor: pointer;
+}
+
+.event input.profile{
+	width: 100px;
+	height: 100px;
+	left:50px;
+}
+
+.event input.name1{
+	width: 120px;
+	height: 120px;
+	left:250px;
+}
+
+.event input.name2{
+	width: 120px;
+	height: 120px;
+	left:320px;
 }
 
 .event label:after {
