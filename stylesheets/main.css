@@ -189,7 +189,7 @@ h1[id="main_header"] {
   width: 25px;
   height: 25px;
   z-index: 5;
-  opacity: 0.8;
+  opacity: 0.5;
   z-index: 1;
 }
 
@@ -246,3 +246,10 @@ header{
 }
 
 
+
+:target {
+    display: block;    
+    position: relative;     
+    top: -160px;
+    visibility: hidden;
+}
