@@ -29,7 +29,6 @@
 
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
-    background: #c2edf4;
     font-weight: 300;
     font-size: 14px; 
     color: #333;
@@ -45,6 +44,7 @@ a {
 .timeline-wrapper {
 	width: 100%;
 	position: relative;
+	background-color: #4ABD9B;
 }
 
 .timeline-wrapper > header,
@@ -63,7 +63,7 @@ a {
 .timeline-wrapper > header h1 {
 	margin: 0;
 	font-weight: 400;
-	color: #41838e;
+	color: #3D8299;
 	font-size: 16px; 
 	text-shadow: 0 1px 1px rgba(255,255,255,0.4);
 }
@@ -81,7 +81,7 @@ a {
 	font-weight: 400;
 	position: relative;
 	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQIW2P8DwSMQMCABBhBgiA+sgRYBboEXBuyBIpZMAkAW1YUAh9deX8AAAAASUVORK5CYII=) repeat-x bottom left;
-	text-shadow: 4px 4px 0px #41838e;
+	text-shadow: 4px 4px 0px #3D8299;
 }
 
 .timeline-wrapper > header h2 span {

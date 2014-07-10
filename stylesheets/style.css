@@ -1,5 +1,5 @@
 @import url('demo.css');
-
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 
 @font-face {
 	font-family: 'fontawesome-selected';
@@ -17,7 +17,7 @@
 	position: relative;
 	list-style-type: none;
 	padding: 30px 0 50px 0;
-	font-family: 'Gorditas', Arial, sans-serif;
+	font-family: "Roboto Slab", sans-serif;
 }
 
 .timeline:before {
@@ -65,7 +65,7 @@
 }
 
 .thumb span {
-	color: #41838e; 
+	color: #3D8299; 
 	width: 100%;
 	text-align: center;
 	font-weight: 700;
@@ -75,43 +75,164 @@
 	bottom: -30px;
 }
 
-/*Student pic*/
+/*Student pic Session 1*/
 
-.stu0101 {
-	background-image: url(../images/chewbacca.jpg);
+.allenz {
+	background-image: url(../images/s1/allenz.jpg);
 }
 
-.user-1 {
-	background-image: url(../images/chewbacca.jpg);
+.bingyan {
+	background-image: url(../images/s1/bingyan.jpg);
 }
 
-.user-2 {
-	background-image: url(../images/barf.jpg);
+.christian {
+	background-image: url(../images/s1/christian.jpg);
 }
 
-.user-3 {
-	background-image: url(../images/darkhelmet.jpg);
+.zack {
+	background-image: url(../images/s1/zack.jpg);
 }
 
-.user-4 {
-	background-image: url(../images/darthvader.jpg);
+.inesha {
+	background-image: url(../images/s1/inesha.jpg);
 }
 
-.user-5 {
-	background-image: url(../images/leia.jpg);
+.francois {
+	background-image: url(../images/s1/francois.jpg);
 }
 
-.user-6 {
-	background-image: url(../images/vespa.jpg);
+.petter {
+	background-image: url(../images/s1/petter.jpg);
 }
 
-.user-7 {
-	background-image: url(../images/c3po.jpg);
+.mikanzie {
+	background-image: url(../images/s1/mikanzie.jpg);
 }
 
-.user-8 {
-	background-image: url(../images/dotmatrix.jpg);
+.alexs {
+	background-image: url(../images/s1/alexs.jpg);
 }
+
+.quinton {
+	background-image: url(../images/s1/quinton.jpg);
+}
+
+.lyles {
+	background-image: url(../images/s1/lyles.jpg);
+}
+
+.kj {
+	background-image: url(../images/s1/kj.jpg);
+}
+
+.gabrielle {
+	background-image: url(../images/s1/gabrielle.jpg);
+}
+
+.alexb {
+	background-image: url(../images/s1/alexb.jpg);
+}
+
+.rohit {
+	background-image: url(../images/s1/rohit.jpg);
+}
+
+.amandeep {
+	background-image: url(../images/s1/amandeep.jpg);
+}
+
+.alext {
+	background-image: url(../images/s1/alext.jpg);
+}
+
+.justus {
+	background-image: url(../images/s1/justus.jpg);
+}
+
+
+/*Student pic Session 2*/
+.amy {
+	background-image: url(../images/s2/amy.jpg);
+}
+
+.sabra {
+	background-image: url(../images/s2/sabra.jpg);
+}
+
+.sarah {
+	background-image: url(../images/s2/sarah.jpg);
+}
+
+.kimberly {
+	background-image: url(../images/s2/kimberly.jpg);
+}
+
+.yidan {
+	background-image: url(../images/s2/yidan.jpg);
+}
+
+.ezinne {
+	background-image: url(../images/s2/ezine.jpg);
+}
+
+.michael {
+	background-image: url(../images/s2/michael.jpg);
+}
+
+.kevin {
+	background-image: url(../images/s2/kevin.jpg);
+}
+
+.allie {
+	background-image: url(../images/s2/amy.jpg);
+}
+
+.german {
+	background-image: url(../images/s2/german n.jpg);
+}
+
+.amy {
+	background-image: url(../images/s2/amy.jpg);
+}
+
+.justine {
+	background-image: url(../images/s2/amy.jpg);
+}
+
+.cameron {
+	background-image: url(../images/s2/amy.jpg);
+}
+
+.leah {
+	background-image: url(../images/s2/amy.jpg);
+}
+
+.jessica {
+	background-image: url(../images/s2/amy.jpg);
+}
+
+.mike {
+	background-image: url(../images/s2/amy.jpg);
+}
+
+.garrett {
+	background-image: url(../images/s2/amy.jpg);
+}
+
+.gabe {
+	background-image: url(../images/s2/amy.jpg);
+}
+
+.gardner {
+	background-image: url(../images/s2/amy.jpg);
+}
+
+.harrison {
+	background-image: url(../images/s2/amy.jpg);
+}
+
+
+
 
 /* Transparent Checkbox/radio hack: leave the checkbox on top, hide it with opacity 0 */
 
@@ -136,7 +257,7 @@
 	content: '\e702';
 	background: #fff;
 	border-radius: 50%;
-	color: #41838E;
+	color: #3D8299;
 	font-size: 26px;
 	height: 100%;
 	width: 100%;
@@ -194,7 +315,7 @@
 	padding: 20px;
 	color: #333;
 	border: none;
-	border-left: 5px solid #41838e;
+	border-left: 5px solid #3D8299;
 	box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 	background: #fff;
 }
@@ -202,7 +323,7 @@
 .content-inner h3 {
 	font-size: 26px;
 	padding: 5px 0 5px 0;
-	color: #41838e;
+	color: #3D8299;
 }
 
 .content-inner p {
@@ -223,7 +344,7 @@
 	position: absolute;
 	width: 30px;
 	height: 30px;
-	color: #41838e;
+	color: #3D8299;
 	left: -22px;
 	top: 19px;
 	z-index: -1;
@@ -411,7 +532,7 @@
 
 	.content-inner {
 		border-left: none;
-		border-top: 5px solid #41838e;
+		border-top: 5px solid #3D8299;
 	}
 
 	.event input[type="radio"]:checked ~ .content-perspective .content-inner {
@@ -429,6 +550,7 @@
 		max-height: 300px; 
 	}
 }
+
 
 
 
