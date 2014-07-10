@@ -90,7 +90,7 @@
 }
 
 .zack {
-	background-image: url(../images/s1/zack.jpg);
+	background-image: url(../images/s1/zack.gif);
 }
 
 .inesha {
@@ -98,15 +98,15 @@
 }
 
 .francois {
-	background-image: url(../images/s1/francois.jpg);
+	background-image: url(../images/s1/francios.jpg);
 }
 
 .petter {
 	background-image: url(../images/s1/petter.jpg);
 }
 
-.mikanzie {
-	background-image: url(../images/s1/mikanzie.jpg);
+.mikenzie {
+	background-image: url(../images/s1/mikenzie.jpg);
 }
 
 .alexs {
@@ -126,11 +126,11 @@
 }
 
 .gabrielle {
-	background-image: url(../images/s1/gabrielle.jpg);
+	background-image: url(../images/s1/gaby.jpg);
 }
 
 .alexb {
-	background-image: url(../images/s1/alexb.jpg);
+	background-image: url(../images/s1/alexB.jpg);
 }
 
 .rohit {
@@ -142,13 +142,16 @@
 }
 
 .alext {
-	background-image: url(../images/s1/alext.jpg);
+	background-image: url(../images/s1/alexT.jpg);
 }
 
 .justus {
 	background-image: url(../images/s1/justus.jpg);
 }
 
+.brandon {
+	background-image: url(../images/s1/brandon.jpg);
+}
 
 /*Student pic Session 2*/
 .amy {
@@ -168,11 +171,11 @@
 }
 
 .yidan {
-	background-image: url(../images/s2/yidan.jpg);
+	background-image: url(../images/s2/yidan.png);
 }
 
 .ezinne {
-	background-image: url(../images/s2/ezine.jpg);
+	background-image: url(../images/s2/ezinne.gif);
 }
 
 .michael {
@@ -180,7 +183,7 @@
 }
 
 .kevin {
-	background-image: url(../images/s2/kevin.jpg);
+	background-image: url(../images/s2/kevin.gif);
 }
 
 .allie {
@@ -188,16 +191,16 @@
 }
 
 .german {
-	background-image: url(../images/s2/german n.jpg);
+	background-image: url(../images/s2/german.gif);
 }
 
 
 .justine {
-	background-image: url(../images/s2/justine.jpg);
+	background-image: url(../images/s2/justine.gif);
 }
 
 .cameron {
-	background-image: url(../images/s2/cameron.jpg);
+	background-image: url(../images/s2/cameron.gif);
 }
 
 .leah {
@@ -209,7 +212,7 @@
 }
 
 .mike {
-	background-image: url(../images/s2/mike.jpg);
+	background-image: url(../images/s2/mike.gif);
 }
 
 .garrett {
@@ -221,13 +224,42 @@
 }
 
 .gardner {
-	background-image: url(../images/s2/gardner.jpg);
+	background-image: url(../images/s2/gardner.gif);
 }
 
 .harrison {
 	background-image: url(../images/s2/harrison.jpg);
 }
 
+/*staff*/
+
+.aaron {
+	background-image: url(../images/staff/aaron.gif);
+}
+.alexis {
+	background-image: url(../images/staff/alexis.gif);
+}
+.elan {
+	background-image: url(../images/staff/elan.gif);
+}
+.isra {
+	background-image: url(../images/staff/isra.gif);
+}
+.jonny {
+	background-image: url(../images/staff/jonny.gif);
+}
+.mariella {
+	background-image: url(../images/staff/mariella.gif);
+}
+.rafi {
+	background-image: url(../images/staff/rafi.gif);
+}
+.seth {
+	background-image: url(../images/staff/seth.gif);
+}
+.darren {
+	background-image: url(../images/staff/darren.gif);
+}
 
 
 
