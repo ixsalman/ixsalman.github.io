@@ -141,33 +141,39 @@
     <script type="text/javascript">
 
 
-      // // find the locations of your cursor
-      // $(document).on("mousemove", function(event) {
-      //   console.log("X: "+event.pageX);
-      //   console.log("Y: "+event.pageY);
-      // });
+      // find the locations of your cursor
+      $(document).on("mousemove", function(event) {
+        console.log("X: "+event.pageX);
+        console.log("Y: "+event.pageY);
+      });
 
 
       // randomly assign a left/top css value
       $(document).ready( function() {
+        var vertiLim = screen.height;
+        var horizLim = screen.width;
         $.each($(".image_expand"), function() {
-          $(this).css({left: Math.floor(Math.random() * 1170)});
-          $(this).css({top: Math.floor(Math.random() * 608) + 160})
+          var margin = 100;
+          var expanded = 150;
+          var original = 25;
+          var offset = (expanded - original)/2;
+          $(this).css({left: Math.floor(Math.random()*(horizLim - expanded - margin) + offset + margin/2)});
+          $(this).css({top: Math.floor(Math.random()*(vertiLim - 160 - expanded - margin)) + 160 + offset});
         });
       });
 
 
       // offset it based on screen size
-      $(document).ready( function() {
-        var vertiOffset = (screen.height - 768 - 150)/2;
-        var horizOffset = (screen.width - 1024 - 150)/2;
-        if (screen.height > 768) {
-          $(".image_expand").css({top: "+="+vertiOffset});
-        }
-        if (screen.width > 768) {
-          $(".image_expand").css({left: "+="+horizOffset});
-        }
-      });
+      // $(document).ready( function() {
+      //   var vertiOffset = (screen.height - 768 - 150)/2;
+      //   var horizOffset = (screen.width - 1024 - 150)/2;
+      //   if (screen.height > 768) {
+      //     $(".image_expand").css({top: "+="+vertiOffset});
+      //   }
+      //   if (screen.width > 768) {
+      //     $(".image_expand").css({left: "+="+horizOffset});
+      //   }
+      // });
 
 
 
