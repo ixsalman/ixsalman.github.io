@@ -153,12 +153,13 @@
         var vertiLim = screen.height;
         var horizLim = screen.width;
         $.each($(".image_expand"), function() {
-          var margin = 100;
+          var margin_side = 200;
+          var margin_bottom = 100;
           var expanded = 150;
           var original = 25;
           var offset = (expanded - original)/2;
-          $(this).css({left: Math.floor(Math.random()*(horizLim - expanded - margin) + offset + margin/2)});
-          $(this).css({top: Math.floor(Math.random()*(vertiLim - 160 - expanded - margin)) + 160 + offset});
+          $(this).css({left: Math.floor(Math.random()*(horizLim - expanded - margin_side) + offset + margin_side/2)});
+          $(this).css({top: Math.floor(Math.random()*(vertiLim - 160 - expanded - margin_bottom)) + 160 + offset});
         });
       });
 
