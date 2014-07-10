@@ -77,8 +77,8 @@
 
 /*Student pic Session 1*/
 
-.allenz {
-	background-image: url(../images/s1/allenz.jpg);
+.allen {
+	background-image: url(../images/s1/allen.jpg);
 }
 
 .bingyan {
@@ -244,6 +244,8 @@
 }
 
 .event input[type="radio"] {
+	width: 40px;
+	height: 400px;
 	opacity: 0;
 	z-index: 10;
 	cursor: pointer;
