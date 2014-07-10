@@ -3,14 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <script type="text/javascript" src="javascript/app.js"></script>
-
-  
   </head>
-
-  
 
   <body>
     <!-- 12.2  -->
+    <a href="session1.html#Allen" class="image_expand allen" style="position:absolute; left: 333px; top: 111px;">
+      <img src="/images/img_expand/allen.gif" alt="test" class="thumb">
+    </a>
+    <a href="session1.html" class="image_expand" style="position:absolute; left: 328px; top: 654px;">
+      <img src="/images/img_expand/KJ.gif" alt="test" class="thumb">
+    </a>
     <a href="session1.html" class="image_expand" style="position:absolute; left: 328px; top: 654px;">
       <img src="/images/img_expand/KJ.gif" alt="test" class="thumb">
     </a>
@@ -141,11 +143,11 @@
     <script type="text/javascript">
 
 
-      // find the locations of your cursor
-      $(document).on("mousemove", function(event) {
-        console.log("X: "+event.pageX);
-        console.log("Y: "+event.pageY);
-      });
+      // // find the locations of your cursor
+      // $(document).on("mousemove", function(event) {
+      //   console.log("X: "+event.pageX);
+      //   console.log("Y: "+event.pageY);
+      // });
 
 
       // randomly assign a left/top css value
@@ -215,7 +217,7 @@
               { width: "25", height: "25"}, 
               speed
             );
-            $(this).children().css({opacity: 0.8});
+            $(this).children().css({opacity: 0.5});
             $(this).children().css({"z-index": 1});
             $(this).css({'z-index': 1});
             console.log($(this).children().css("z-index"));
