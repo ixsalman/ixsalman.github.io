@@ -246,3 +246,10 @@ header{
 }
 
 
+
+:target {
+    display: block;    
+    position: relative;     
+    top: -160px;
+    visibility: hidden;
+}
