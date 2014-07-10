@@ -235,14 +235,14 @@ body {
 }
 
 h1[id="main_header"] {
-  padding: 30px;
+  padding: 50px;
   font-family: "Bitter", sans-serif;
   font-weight: bold;
   color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.7);
-  margin-bottom: 2em;
-  position: absolute;
+  background-color: rgba(30, 30, 30, 0.6);
   text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
   z-index: -1;
 }
 
@@ -251,13 +251,16 @@ h1[id="main_header"] {
   position: absolute;
   left: 1000px;
   top: 500px;
+  z-index: 1;
 }
 
 
 .thumb {
-  width: 100px;
-  height: 100px;
+  width: 25px;
+  height: 25px;
   z-index: 5;
+  opacity: 0.8;
+  z-index: 1;
 }
 
 .smaller {
@@ -271,11 +274,15 @@ h1[id="main_header"] {
   background: url('/images/salman_mosaic.jpg') no-repeat 50% 0;  
   height: 100%;
   width: 100%;
-  margin-top: 10px;
   padding: 0;
   background-attachment: fixed;
   background-size: cover;
+}
 
+.main_header_container {
+  position: absolute;
+  top: 20px;
+  width: 100%;
 }
 
 #header {
@@ -283,6 +290,5 @@ h1[id="main_header"] {
   height: 60px;
   z-index: 5;
 }
-
 
 
