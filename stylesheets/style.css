@@ -13,6 +13,19 @@
     font-style: normal;
 }
 
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('font/fontawesome-webfont.eot?v=4.1.0');
+  src: url('font/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), 
+  url('font/fontawesome-webfont.woff?v=4.1.0') format('woff'), 
+  url('font/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), 
+  url('font/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 .timeline {
 	position: relative;
 	list-style-type: none;
@@ -120,18 +133,18 @@
 }
 
 .event label.checkmark:after {
-	font-family: 'fontawesome-selected';
-	content: '\e702';
+	font-family: 'FontAwesome';
+	content: '\f198';
 	background: #fff;
 	border-radius: 50%;
 	color: #3D8299;
 	/*font-size: 30px;*/
-	font-size: 40px;
+	font-size: 25px;
 	height: 100%;
 	width: 100%;
 	left: -2px;
 	top: -3px;
-	line-height: 40px;
+	line-height: 44px;
 	position: absolute;
 	text-align: center;
 }
