@@ -75,191 +75,6 @@
 	bottom: -30px;
 }
 
-/*Student pic Session 1*/
-
-.allen {
-	background-image: url(../images/s1/allen.jpg);
-}
-
-.bingyan {
-	background-image: url(../images/s1/bingyan.jpg);
-}
-
-.christian {
-	background-image: url(../images/s1/christian.jpg);
-}
-
-.zack {
-	background-image: url(../images/s1/zack.gif);
-}
-
-.inesha {
-	background-image: url(../images/s1/inesha.jpg);
-}
-
-.francois {
-	background-image: url(../images/s1/francios.jpg);
-}
-
-.petter {
-	background-image: url(../images/s1/petter.jpg);
-}
-
-.mikenzie {
-	background-image: url(../images/s1/mikenzie.jpg);
-}
-
-.alexs {
-	background-image: url(../images/s1/alexs.jpg);
-}
-
-.quinton {
-	background-image: url(../images/s1/quinton.jpg);
-}
-
-.lyles {
-	background-image: url(../images/s1/lyles.jpg);
-}
-
-.kj {
-	background-image: url(../images/s1/kj.jpg);
-}
-
-.gabrielle {
-	background-image: url(../images/s1/gaby.jpg);
-}
-
-.alexb {
-	background-image: url(../images/s1/alexB.jpg);
-}
-
-.rohit {
-	background-image: url(../images/s1/rohit.jpg);
-}
-
-.amandeep {
-	background-image: url(../images/s1/amandeep.jpg);
-}
-
-.alext {
-	background-image: url(../images/s1/alexT.jpg);
-}
-
-.justus {
-	background-image: url(../images/s1/justus.jpg);
-}
-
-.brandon {
-	background-image: url(../images/s1/brandon.jpg);
-}
-
-/*Student pic Session 2*/
-.amy {
-	background-image: url(../images/s2/amy.jpg);
-}
-
-.sabra {
-	background-image: url(../images/s2/sabra.jpg);
-}
-
-.sarah {
-	background-image: url(../images/s2/sarah.jpg);
-}
-
-.kimberly {
-	background-image: url(../images/s2/kimberly.jpg);
-}
-
-.yidan {
-	background-image: url(../images/s2/yidan.png);
-}
-
-.ezinne {
-	background-image: url(../images/s2/ezinne.gif);
-}
-
-.michael {
-	background-image: url(../images/s2/michael.jpg);
-}
-
-.kevin {
-	background-image: url(../images/s2/kevin.gif);
-}
-
-.allie {
-	background-image: url(../images/s2/amy.jpg);
-}
-
-.german {
-	background-image: url(../images/s2/german.gif);
-}
-
-
-.justine {
-	background-image: url(../images/s2/justine.gif);
-}
-
-.cameron {
-	background-image: url(../images/s2/cameron.gif);
-}
-
-.leah {
-	background-image: url(../images/s2/leah.jpg);
-}
-
-.jessica {
-	background-image: url(../images/s2/jessica.jpg);
-}
-
-.mike {
-	background-image: url(../images/s2/mike.gif);
-}
-
-.garrett {
-	background-image: url(../images/s2/garrett.jpg);
-}
-
-.gabe {
-	background-image: url(../images/s2/gabe.jpg);
-}
-
-.gardner {
-	background-image: url(../images/s2/gardner.gif);
-}
-
-.harrison {
-	background-image: url(../images/s2/harrison.jpg);
-}
-
-/*staff*/
-
-.aaron {
-	background-image: url(../images/staff/aaron.gif);
-}
-.alexis {
-	background-image: url(../images/staff/alexis.gif);
-}
-.elan {
-	background-image: url(../images/staff/elan.gif);
-}
-.isra {
-	background-image: url(../images/staff/isra.gif);
-}
-.jonny {
-	background-image: url(../images/staff/jonny.gif);
-}
-.mariella {
-	background-image: url(../images/staff/mariella.gif);
-}
-.rafi {
-	background-image: url(../images/staff/rafi.gif);
-}
-.seth {
-	background-image: url(../images/staff/seth.gif);
-}
-.darren {
-	background-image: url(../images/staff/darren.gif);
-}
 
 
 
@@ -482,7 +297,7 @@
 	color: #F26328;
 }
 
-.event input[type="radio"]:checked ~ .thumbnail {
+.event input[type="radio"]:checked ~ label .thumbnail {
 	-webkit-transform: scale(1);
 	-moz-transform: scale(1);
 	-o-transform: scale(1);
@@ -493,11 +308,11 @@
 		0 1px 1px rgba(255,255,255,0.5);
 }
 
-.event input[type="radio"]:checked ~ .thumbnail span {
+.event input[type="radio"]:checked ~ label .thumbnail span {
 	color: #F26328;
 }
 
-.event input[type="radio"]:checked ~ .thumbnail:before {
+.event input[type="radio"]:checked ~ label .thumbnail:before {
 	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQYV2NkQAOfUjX+882+wYgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQBbNyaHFmzEqgAAAABJRU5ErkJggg==);
 }
 
@@ -604,3 +419,201 @@
 	}
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* backround images */
+/*Student pic Session 1*/
+
+.allen {
+	background-image: url(../images/s1/allen.jpg);
+}
+
+.bingyan {
+	background-image: url(../images/s1/bingyan.jpg);
+}
+
+.christian {
+	background-image: url(../images/s1/christian.jpg);
+}
+
+.zack {
+	background-image: url(../images/s1/zack.gif);
+}
+
+.inesha {
+	background-image: url(../images/s1/inesha.jpg);
+}
+
+.francois {
+	background-image: url(../images/s1/francios.jpg);
+}
+
+.petter {
+	background-image: url(../images/s1/petter.jpg);
+}
+
+.mikenzie {
+	background-image: url(../images/s1/mikenzie.jpg);
+}
+
+.alexS {
+	background-image: url(../images/s1/alexs.jpg);
+}
+
+.quinton {
+	background-image: url(../images/s1/quinton.jpg);
+}
+
+.lyles {
+	background-image: url(../images/s1/lyles.jpg);
+}
+
+.KJ {
+	background-image: url(../images/s1/kj.jpg);
+}
+
+.gaby {
+	background-image: url(../images/s1/gaby.jpg);
+}
+
+.alexB {
+	background-image: url(../images/s1/alexB.jpg);
+}
+
+.rohit {
+	background-image: url(../images/s1/rohit.jpg);
+}
+
+.amandeep {
+	background-image: url(../images/s1/amandeep.jpg);
+}
+
+.alexT {
+	background-image: url(../images/s1/alexT.jpg);
+}
+
+.justus {
+	background-image: url(../images/s1/justus.jpg);
+}
+
+.brandon {
+	background-image: url(../images/s1/brandon.jpg);
+}
+
+/*Student pic Session 2*/
+.amy {
+	background-image: url(../images/s2/amy.jpg);
+}
+
+.sabra {
+	background-image: url(../images/s2/sabra.jpg);
+}
+
+.sarah {
+	background-image: url(../images/s2/sarah.jpg);
+}
+
+.kim {
+	background-image: url(../images/s2/kimberly.jpg);
+}
+
+.yidan {
+	background-image: url(../images/s2/yidan.png);
+}
+
+.ezinne {
+	background-image: url(../images/s2/ezinne.gif);
+}
+
+.michael {
+	background-image: url(../images/s2/michael.jpg);
+}
+
+.kevin {
+	background-image: url(../images/s2/kevin.gif);
+}
+
+.allie {
+	background-image: url(../images/s2/amy.jpg);
+}
+
+.german {
+	background-image: url(../images/s2/german.gif);
+}
+
+
+.justine {
+	background-image: url(../images/s2/justine.gif);
+}
+
+.cameron {
+	background-image: url(../images/s2/cameron.gif);
+}
+
+.leah {
+	background-image: url(../images/s2/leah.jpg);
+}
+
+.jessica {
+	background-image: url(../images/s2/jessica.jpg);
+}
+
+.mike {
+	background-image: url(../images/s2/mike.gif);
+}
+
+.garrett {
+	background-image: url(../images/s2/garrett.jpg);
+}
+
+.gabe {
+	background-image: url(../images/s2/gabe.jpg);
+}
+
+.gardner {
+	background-image: url(../images/s2/gardner.gif);
+}
+
+.harrison {
+	background-image: url(../images/s2/harrison.jpg);
+}
+
+/*staff*/
+
+.aaron {
+	background-image: url(../images/staff/aaron.gif);
+}
+.alexis {
+	background-image: url(../images/staff/alexis.gif);
+}
+.elan {
+	background-image: url(../images/staff/elan.gif);
+}
+.isra {
+	background-image: url(../images/staff/isra.gif);
+}
+.jonny {
+	background-image: url(../images/staff/jonny.gif);
+}
+.mariella {
+	background-image: url(../images/staff/mariella.gif);
+}
+.rafi {
+	background-image: url(../images/staff/rafi.gif);
+}
+.seth {
+	background-image: url(../images/staff/seth.gif);
+}
+.darren {
+	background-image: url(../images/staff/darren.gif);
+}
