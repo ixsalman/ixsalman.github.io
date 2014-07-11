@@ -189,7 +189,7 @@ h1[id="main_header"] {
   width: 25px;
   height: 25px;
   z-index: 5;
-  opacity: 0.5;
+  opacity: 0.6;
   z-index: 1;
 }
 
@@ -201,7 +201,7 @@ h1[id="main_header"] {
 
 
 #index_body {
-  background: url('/images/salman_mosaic.jpg') no-repeat 50% 0;  
+  background: url('/images/salman_mosaicSD.jpg') no-repeat 50% 0;  
   height: 100%;
   width: 100%;
   padding: 0;
