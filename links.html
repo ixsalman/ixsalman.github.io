@@ -115,8 +115,8 @@
     <a href="session2.html#michael" class="image_expand" style="position:absolute; left: 568px; top: 702px;">
       <img src="/images/img_expand/michael.gif" alt="Thumbnail" class="thumb">
     </a>
-    <a href="session2.html#mike" class="image_expand" style="position:absolute; left: 123px; top: 321px;">
-      <img src="/images/img_expand/mike.gif" alt="Thumbnail" class="thumb">
+    <a href="session2.html#mike" class="image_expand mike" style="position:absolute; left: 123px; top: 321px;">
+      <img src="/images/img_expand/mike.jpg" alt="Thumbnail" class="thumb">
     </a>
     <a href="session1.html#mikenzie" class="image_expand" style="position:absolute; left: 575px; top: 550px;">
       <img src="/images/img_expand/mikenzie.gif" alt="Thumbnail" class="thumb">
@@ -165,12 +165,12 @@
         var vertiLim = screen.height, horizLim = screen.width;
         $.each($(".image_expand"), function() {
           var margin_side = 200, 
-              margin_bottom = 150, 
+              margin_bottom = 100, 
               expanded = 150, 
               original = 25, 
               offset = (expanded - original)/2;
-          $(this).css({left: Math.floor(Math.random()*(horizLim - expanded - margin_side*2)) + margin_side});
-          $(this).css({top: Math.floor(Math.random()*(vertiLim - 160 - expanded - margin_bottom)) + 160});
+          $(this).css({left: Math.floor(Math.random()*(horizLim - expanded - margin_side*2)) + offset + margin_side});
+          $(this).css({top: Math.floor(Math.random()*(vertiLim - 160 - expanded - margin_bottom)) +offset + 160});
         });
       });
 
