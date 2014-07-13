@@ -201,7 +201,7 @@ h1[id="main_header"] {
 
 
 #index_body {
-  background: url('/images/salman_mosaicSD.jpg') no-repeat 50% 0;  
+  background: url(../images/salman_mosaicSD.jpg) no-repeat 50% 0;  
   height: 100%;
   width: 100%;
   padding: 0;
