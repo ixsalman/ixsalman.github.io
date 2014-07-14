@@ -164,8 +164,6 @@
       // randomly assign a left/top css value
       $(document).ready( function() {
         var vertiLim = $(document).height(), horizLim = $(document).width();
-        console.log(vertiLim);
-        console.log(horizLim);
         $.each($(".image_expand"), function() {
           var margin_side = 100, 
               margin_bottom = 50, 
@@ -218,7 +216,6 @@
             $(this).children().css({opacity: 0.6});
             $(this).children().css({"z-index": 1});
             $(this).css({'z-index': 1});
-            console.log($(this).children().css("z-index"));
           }
         );
       
