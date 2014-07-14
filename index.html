@@ -53,10 +53,12 @@
   </div>  
 
 <script type="text/javascript"> 
+// $.ajaxPrefilter( "json script", function( options ) {
+//   options.crossDomain = true;
+// });
   // load the links
   $(document).ready( function() {
-    console.log("this is working");
-    $(".links").load("links.html").hide().delay(2000).fadeIn(2000);
+    $(".links").load("./links.html").hide().delay(2000).fadeIn(2000);
 
   })
 
