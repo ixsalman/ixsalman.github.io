@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lengendary Ansari</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/main.css">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../assets/favicon.png">
+
+  <!-- Javascript -->
+  <script type="text/javascript" src="../assets/app.js"></script>
+  <script type="text/javascript" src="../assets/jquery.js"></script>
+
+
+  <div id="header">
+   <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+          <ul class="nav pull-left">
+            <li><img src="../assets/logo.png" alt="iXperience" class="logo"></li>
+          </ul>
+          <ul class="nav pull-right">     
+            <li><a href="index.html" class="btn btn-medium">Our Amazing Teacher!</a></li>
+            <li><a href="session1.html" class="btn btn-medium"> Session 1 </a></li>
+            <li><a href="session2.html" class="btn btn-medium"> Session 2 </a></li>
+            <li><a href="staff.html" class="btn btn-medium">Grown-ups</a></li>
+          </ul>
+      </div>
+    </div>
+   </div>
+  </div>
+
+
+</head>
+
+<body id="index_body">
+
+
+  <!-- hide header -->
+  <script type="text/javascript">
+   $("#header").hide();
+  </script>
+
+
+  <div class="container links"></div>  
+
+  <div class="main_header_container"> 
+   <h1 id="main_header">Presenting... The amazing Salman Ansari</h1> 
+  </div>  
+
+<script type="text/javascript"> 
+// $.ajaxPrefilter( "json script", function( options ) {
+//   options.crossDomain = true;
+// });
+  // load the links
+  $(document).ready( function() {
+    console.log("this is working");
+    $(".links").load("./links.html").hide().delay(2000).fadeIn(2000);
+    console.log("tihs is not working");
+
+  })
+
+
+  // showing/hiding the header
+  $( document ).on( "mousemove", function( event ) {
+    if (event.pageY < 60) {$("#header").show();}
+    else {$("#header").hide();}
+  });
+
+
+</script> 
+</body>
+</html>

@@ -1,0 +1,255 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter);
+@import url(http://fonts.googleapis.com/css?family=Lato:700,400italic,700italic);
+
+/* Main styles
+ * CHANGING ANYTHING HERE WILL CHANGE EVERY SINGLE PAGE
+ */
+body {
+  font: 16px/1.3 normal 'Lato', helvetica;
+  background-color: #4ABD9B;
+  margin: 0;
+}
+
+
+.container {
+  background-color: white;
+  padding: 20px;
+  margin: 50px auto;
+  width: 50%;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.center {
+  margin-bottom: 0 auto 30px auto;
+}
+
+.bg-img {
+  position: fixed; left: 0; top: 0;
+  min-width: 100%; min-height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: auto; height: auto; z-index: -100;
+}
+
+
+.container {
+  width: 1000px;
+}
+
+.student_photo {
+  float: left;
+  clear: right;
+  height: 200px;
+  width: 200px;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.student_comment {
+  padding: 10px;
+  width: 750px;
+}
+
+.student_comment > .container {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: left;
+}
+
+
+
+
+
+.navbar .brand {
+  color: #222a31;
+  padding: 0;
+  margin-top: 14px;
+  margin-left: 0;
+  height: 35px;
+}
+.nav {
+  font: 700 16px/16px "Lato", sans-serif;
+  text-shadow: none;  
+}
+
+.navbar-inner {
+  background: #fff;
+  background-image: none;
+}
+
+
+.navbar .nav > li > a {
+  color: #222a31;
+  padding: 20px;
+  display: block;
+}
+.navbar .nav > li > a:focus, 
+.navbar .nav > li > a:hover {
+  border-radius: 0px;
+  color: white;
+  background-color: #52bad5;
+  text-shadow: none;
+}
+
+.navbar-fixed-top .navbar-inner, 
+.navbar-static-top .navbar-inner {
+  border: none;
+  -webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+}
+
+.navbar .nav > li > .dropdown-menu:after,
+.navbar .nav > li > .dropdown-menu:before {
+  display: none;
+}
+.navbar .pull-right > li > .dropdown-menu, 
+.navbar .nav > li > .dropdown-menu.pull-right {
+  right: 20px;
+  width: 100%;
+}
+
+.pull-right {
+  float:right;
+}
+.btn:hover {
+  background-color: #4ABD9B;
+}
+
+
+.navbar .nav > li > .logo:hover, 
+.navbar .nav > li > .logo {
+  padding: 0px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0px auto;
+  padding: 0px;
+  height: 100%;
+  background-color: transparent;
+}
+
+ul.pull-right > li > .btn {
+  border: none;
+}
+
+.nav > li > .btn {
+  vertical-align: middle;
+}
+
+.logo {
+  margin-top: 15px;
+}
+
+.nav > li {
+  float:left;
+}
+
+
+.navbar .nav {
+  margin-bottom: 0px;
+  height: 65px;
+  z-index: 5;
+}
+
+
+body {
+  margin-top: 65px;
+}
+
+h1[id="main_header"] {
+  padding: 50px;
+  font-family: "Bitter", sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgba(30, 30, 30, 0.6);
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  z-index: -1;
+}
+
+
+.image_expand {
+  position: absolute;
+  left: 1000px;
+  top: 500px;
+  z-index: 1;
+}
+
+
+.thumb {
+  width: 25px;
+  height: 25px;
+  z-index: 5;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.smaller {
+  width: 70px;
+  height: 70px;
+  z-index: 3;
+}
+
+
+#index_body {
+  background: url(../assets/salman_mosaicSD.jpg) no-repeat 50% 0;  
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.main_header_container {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+}
+
+/*Session*/
+
+.salman{
+  width: 160px;
+  height: 160px;
+  box-shadow: 
+    0 0 0 8px #fff, 
+    0 1px 1px rgba(255,255,255,0.5);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  -webkit-transform: scale(0.8) translateX(24px);
+  -moz-transform: scale(0.8) translateX(24px);
+  -o-transform: scale(0.8) translateX(24px);
+  -ms-transform: scale(0.8) translateX(24px);
+  transform: scale(0.8) translateX(24px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  text-align: center;
+}
+
+
+#header {
+  float: top;
+  height: 60px;
+  z-index: 5;
+}
+
+
+
+:target {
+    display: block;    
+    position: relative;     
+    top: -160px;
+    visibility: hidden;
+}
